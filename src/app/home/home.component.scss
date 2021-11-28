@@ -1,39 +1,4 @@
 
-.bcg-header{
-    background-color: white;
-    position: relative;
-    z-index: 99999;
-}
-.header{
-    margin-left: auto;
-    max-width: 800px;
-    padding-top: 60px;
-    width: 100%;
-
-
-
-    .navbar{
-        display:flex;
-        .navbar-item-container{
-            padding-right: 30px;
-            .navbar-item{
-                color: #888;
-                font-family: helvetica, sans-serif;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 16px;
-                text-transform: uppercase;
-
-                cursor: pointer;
-            }
-
-        }
-    }
-}
-
-
-
 .section-bodega{
     margin: 4%;
     display: flex;
@@ -83,9 +48,9 @@
         width: 100%;
         height: 100%;
         /* max-width: 100%; */
-        background-size: contain;
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
 
 
         &:hover{

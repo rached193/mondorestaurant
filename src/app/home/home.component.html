@@ -1,37 +1,4 @@
-<div class="bcg-header">
-    <header class="header">
-        <!-- <img src="/assets/header.jpg"> -->
-
-        <div class="navbar">
-            <span class="navbar-item-container">
-                <span class="navbar-item">
-                    Inicio
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('menus')"> 
-                    Menus
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('bodega')">
-                    Bodegas
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('equipo')">
-                    Equipo
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('reservas')">
-                    Reservas
-                </span>
-            </span>
-        </div>
-    </header>
-</div>
-
+<app-header [fullpage_api]="fullpage_api"></app-header>
 
 <div fullpage id="fullpage2" [options]="config" (ref)="getRef($event)">
     <div class="section">
@@ -52,7 +19,7 @@
         <div class="section-bodega">
 
         <div class="page-bodega">
-            <div class="image-container">
+            <div class="image-container" [routerLink]="['/bodega']">
                 <div class="image-card" style="background-image: url('/assets/rosado.jpg');"></div>
                 <!-- <img src="/assets/tinto.jpeg"> -->
                 <div class="image-label">
@@ -62,7 +29,7 @@
         </div>
 
         <div class="page-bodega">
-            <div class="image-container">
+            <div class="image-container" [routerLink]="['/bodega']">
                 <div class="image-card" style="background-image: url('/assets/tinto.jpeg');"></div>
                 <div class="image-label">
                     <div class="label"> Tinto</div>
@@ -71,7 +38,7 @@
         </div>
 
         <div class="page-bodega">
-            <div class="image-container">
+            <div class="image-container" [routerLink]="['/bodega']">
                 <div class="image-card" style="background-image: url('/assets/blanco.jpg');"></div>
                 <div class="image-label">
                     <div class="label"> Blanco</div>

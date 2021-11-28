@@ -2,11 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './landing/landing.component';
-import { MenusComponent } from './menus/menus.component';
+import { BodegaComponent } from './sections/bodega/bodega.component';
+import { MenusComponent } from './sections/menus/menus.component';
 
 const routes: Routes = [
   { path: "", component: LandingComponent },
-  { path: "home", component: HomeComponent, children: [{ path: "menus", component: MenusComponent }] }
+  { path: "home", component: HomeComponent},
+  { path: "menus", component: MenusComponent }, 
+  { path: "bodega", component: BodegaComponent }
 ];
 
 @NgModule({
