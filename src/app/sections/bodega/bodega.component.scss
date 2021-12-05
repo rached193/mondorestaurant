@@ -3,3 +3,16 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.filter-wine{
+    display: flex;
+    justify-content: center;
+    .image-card{
+        width: 230px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 270px;
+        margin: 49px;
+    }
+}

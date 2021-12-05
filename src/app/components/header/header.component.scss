@@ -1,8 +1,10 @@
 
 .bcg-header{
-    background-color: white;
+    background-color: #70706e;
     position: relative;
     z-index: 99999;
+    padding-bottom: 2em;
+
 }
 .header{
     margin-left: auto;
@@ -17,7 +19,7 @@
         .navbar-item-container{
             padding-right: 30px;
             .navbar-item{
-                color: #888;
+                color: whitesmoke;
                 font-family: helvetica, sans-serif;
                 font-size: 16px;
                 font-style: normal;
