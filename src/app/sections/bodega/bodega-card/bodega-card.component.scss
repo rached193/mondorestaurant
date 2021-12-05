@@ -1,6 +1,5 @@
 .card{
     display: flex;
-    max-width: 42rem;
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
@@ -9,13 +8,15 @@
     margin: 1.5rem;
     padding: 10px;
 
+    height: 12rem;
+    width: 31rem;
+
     .image-card{
         background-size: contain;
         height: auto;
         width: 7rem;
         background-repeat: no-repeat;
         background-position: center;
-        cursor: pointer;
     }
 
     .title{

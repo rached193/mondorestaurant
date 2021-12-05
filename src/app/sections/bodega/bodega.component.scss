@@ -14,5 +14,18 @@
         background-position: center;
         height: 270px;
         margin: 49px;
+        cursor: pointer;
+
+        &.active{
+            box-shadow: 0px 12px 22px 1px #333;
+            zoom: 1.05;
+
+            animation: pulse; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 2s; /* don't forget to set a duration! */
+        }
+    }
+
+    .info-card{
+        margin-right: 5px
     }
 }

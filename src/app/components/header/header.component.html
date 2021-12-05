@@ -9,22 +9,22 @@
                 </span>
             </span>
             <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('menus')"> 
+                <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('menus'): goTo('menus')">
                     Menus
                 </span>
             </span>
             <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('bodega')">
+                <span class="navbar-item"  (click)="fullpage_api?fullpage_api.moveTo('bodega'): goTo('bodega')">
                     Bodegas
                 </span>
             </span>
             <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('equipo')">
+                <span class="navbar-item"  (click)="fullpage_api?fullpage_api.moveTo('equipo'): goTo('equipo')">
                     Equipo
                 </span>
             </span>
             <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api.moveTo('reservas')">
+                <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
                     Reservas
                 </span>
             </span>

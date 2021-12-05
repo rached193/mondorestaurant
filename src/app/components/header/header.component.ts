@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   @Input() fullpage_api: any
 
   ngOnInit(): void {
+  }
+
+  goTo(fragment: string) {
+    console.log("hol")
+    this.router.navigate(["/home"], {fragment: fragment})
   }
 
 }
