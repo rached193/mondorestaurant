@@ -1,9 +1,14 @@
 
-.bcg-header{
-    background-color: #70706e;
+.container-header{
     position: relative;
-    z-index: 99999;    
+    z-index: 20;    
+
+}
+
+.bcg-header{
+    background-color: #1e1e1e;
     padding: 1.5em;
+    padding-bottom: 1em;
 
 }
 .header{
@@ -30,3 +35,9 @@
         }
     }
 }
+
+.header-separator{
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(
+0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);}

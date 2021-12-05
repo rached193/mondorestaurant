@@ -1,18 +1,12 @@
 
 .section-bodega{
-    margin: 4%;
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    grid-column-gap: 0.875rem;
-    grid-column-gap: 6.875rem;
-    column-gap: 6vw;
-    max-height: 65vh;
-    height: 50vw;
+    height: 100vh;
 
     .page-bodega{
-        border: #70706e solid 10px;
         width: 100%;
+        cursor: pointer;
+
 
         .image-container{
             width: 100%;
@@ -26,13 +20,13 @@
             }
         }
     }
-
 }
 
 .page-menus{
     display: flex;
     width: 100vw;
-    height: 70vh;
+    height: 100%;
+    cursor: pointer;
 }
 
 .image-container{
