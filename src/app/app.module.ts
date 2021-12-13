@@ -10,6 +10,7 @@ import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { BodegaComponent } from './sections/bodega/bodega.component';
 import { BodegaCardComponent } from './sections/bodega/bodega-card/bodega-card.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ReservasComponent } from './sections/reservas/reservas.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
     MenusComponent,
     BodegaComponent,
     BodegaCardComponent,
-    HeaderComponent
+    HeaderComponent,
+    ReservasComponent
   ],
   imports: [
     BrowserModule,
