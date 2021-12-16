@@ -11,6 +11,8 @@ import { BodegaComponent } from './sections/bodega/bodega.component';
 import { BodegaCardComponent } from './sections/bodega/bodega-card/bodega-card.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ReservasComponent } from './sections/reservas/reservas.component';
+import { AvisoLegalComponent } from './sections/aviso-legal/aviso-legal.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ReservasComponent } from './sections/reservas/reservas.component';
     BodegaComponent,
     BodegaCardComponent,
     HeaderComponent,
-    ReservasComponent
+    ReservasComponent,
+    AvisoLegalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

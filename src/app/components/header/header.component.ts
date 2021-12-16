@@ -12,12 +12,19 @@ export class HeaderComponent implements OnInit {
 
   @Input() fullpage_api: any
 
+  openMenu = false;
+
   ngOnInit(): void {
   }
 
   goTo(fragment: string) {
     console.log("hol")
-    this.router.navigate(["/home"], {fragment: fragment})
+    this.router.navigate(["/home"], { fragment: fragment })
+  }
+
+  toogleMenu() {
+    this.openMenu = !this.openMenu;
+    console.log(this.openMenu)
   }
 
 }

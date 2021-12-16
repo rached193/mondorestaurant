@@ -1,37 +1,70 @@
 <div class="container-header">
-<div class="bcg-header">
-    <header class="header">
-        <!-- <img src="/assets/header.jpg"> -->
+    <div class="bcg-header">
+        <!-- <div class="navbar-logo">
+        <img src="/assets/logo_solo.jpg">
+    </div> -->
+        <header class="header">
 
-        <div class="navbar">
-            <span class="navbar-item-container">
-                <span class="navbar-item">
-                    Inicio
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('menus'): goTo('menus')">
-                    Menus
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item"  (click)="fullpage_api?fullpage_api.moveTo('bodega'): goTo('bodega')">
-                    Bodegas
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item"  (click)="fullpage_api?fullpage_api.moveTo('equipo'): goTo('equipo')">
-                    Equipo
-                </span>
-            </span>
-            <span class="navbar-item-container">
-                <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
-                    Reservas
-                </span>
-            </span>
-        </div>
-    </header>
-</div>
-<div class="header-separator"></div>
-</div>
+            <div class="navbar">
 
+                <span class="navbar-item-container">
+                    <span class="navbar-item">
+                        Inicio
+                    </span>
+                </span>
+                <span class="navbar-item-container">
+                    <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('menus'): goTo('menus')">
+                        Menus
+                    </span>
+                </span>
+                <span class="navbar-item-container">
+                    <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('bodega'): goTo('bodega')">
+                        Bodegas
+                    </span>
+                </span>
+                <span class="navbar-item-container">
+                    <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('equipo'): goTo('equipo')">
+                        Equipo
+                    </span>
+                </span>
+                <span class="navbar-item-container">
+                    <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
+                        Reservas
+                    </span>
+                </span>
+            </div>
+
+            <div class="navbar-mobile">
+                <div class="menuToggle" (click)="toogleMenu()">
+                    <span [ngClass]="{'activeMenu':openMenu}"></span>
+                    <span [ngClass]="{'activeMenu':openMenu}"></span>
+                    <span [ngClass]="{'activeMenu':openMenu}"></span>
+                    <ul class="menu" [ngClass]="{'activeMenu':openMenu}">
+                        <li> <span class="navbar-item">
+                                Inicio
+                            </span></li>
+
+                        <li> <span class="navbar-item"
+                                (click)="fullpage_api?fullpage_api.moveTo('menus'): goTo('menus')">
+                                Menus
+                            </span></li>
+                        <li> <span class="navbar-item"
+                                (click)="fullpage_api?fullpage_api.moveTo('bodega'): goTo('bodega')">
+                                Bodegas
+                            </span></li>
+                        <li> <span class="navbar-item"
+                                (click)="fullpage_api?fullpage_api.moveTo('equipo'): goTo('equipo')">
+                                Equipo
+                            </span></li>
+                        <li> <span class="navbar-item"
+                                (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
+                                Reservas
+                            </span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+    </div>
+    <div class="header-separator"></div>
+</div>

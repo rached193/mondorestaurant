@@ -11,6 +11,11 @@
     height: 12rem;
     width: 31rem;
 
+    @media (max-width: 768px) {
+        height: unset;
+        width: unset;
+    }
+
     .image-card{
         background-size: contain;
         height: auto;
@@ -19,8 +24,15 @@
         background-position: center;
     }
 
-    .title{
-        font-size: 1.3rem;
-        font-weight: 700;
+    .info-card{
+        text-align: justify;
+        display: grid;
+
+        .title{
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
     }
+
+
 }
