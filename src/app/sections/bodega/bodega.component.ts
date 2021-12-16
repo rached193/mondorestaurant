@@ -120,7 +120,7 @@ export class BodegaComponent implements OnInit {
       grado: 15,
       temperatura: 16,
       precio: 20,
-      maridaje: "Entrantes, queso manchego, jamón, embutidos,  y carne roja, marisco, aves, arroces, caza, setas",
+      maridaje: "Entremeses, queso manchego, jamón, embutidos,  y carne roja, marisco, aves, arroces, caza, setas",
       imagen: "juan_gil.png"
     },
   ],

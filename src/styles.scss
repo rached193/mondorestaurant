@@ -3,6 +3,21 @@
 @import 'animate.css';
 @import url(~fullpage.js/dist/fullpage.min.css);
 
+
+@font-face {
+    font-family: Avenir;
+    src: url("/assets/fonts/Avenir.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Devanagari;
+    src: url("/assets/fonts/Devanagari.otf") format("opentype");
+}
+
+
 body{
     background-color: #bcbdb7;
+    font-family: Avenir;
 }
+
+
