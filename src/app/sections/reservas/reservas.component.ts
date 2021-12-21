@@ -29,7 +29,7 @@ export class ReservasComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    document.cookie = 'JSESSIONID=DCD92848CADF02BDD01CF6F444A2FE0B';
+    document.cookie = 'JSESSIONID=DCD92848CADF02BDD01CF6F444A2FE0B; DOMAIN=portalrest.com';
     console.log(document.cookie)
  
   }

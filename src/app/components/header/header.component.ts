@@ -23,7 +23,6 @@ export class HeaderComponent implements OnInit {
 
   toogleMenu() {
     this.openMenu = !this.openMenu;
-    console.log(this.openMenu)
   }
 
 }

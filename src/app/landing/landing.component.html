@@ -8,8 +8,36 @@
 
             <div class="label-mondo">MONDO</div>
             <div class="label-restaurante">RESTAURANTE</div>
-            <button class="button" [routerLink]="['/home']"> Experiencia Mondo</button>
+
+
         </div>
     </div>
+
+    <div class="navbar"> <span class="navbar-item-container">
+        <span class="navbar-item" [routerLink]="['/']">
+            Inicio
+        </span>
+    </span>
+    <span class="navbar-item-container">
+        <span class="navbar-item" (click)="goTo('menus')">
+            Menus
+        </span>
+    </span>
+    <span class="navbar-item-container">
+        <span class="navbar-item" (click)="goTo('bodega')">
+            Bodegas
+        </span>
+    </span>
+    <span class="navbar-item-container">
+        <span class="navbar-item" (click)="goTo('equipo')">
+            Equipo
+        </span>
+    </span>
+    <span class="navbar-item-container">
+        <span class="navbar-item" (click)="goTo('reservas')">
+            Reservas
+        </span>
+    </span>
+</div>
 
 </div>
