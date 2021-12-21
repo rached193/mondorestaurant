@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
   }
 
   goTo(fragment: string) {
-    console.log("hol")
     this.router.navigate(["/home"], { fragment: fragment })
   }
 
