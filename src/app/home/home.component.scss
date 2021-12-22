@@ -1,7 +1,7 @@
 
 .section-bodega{
     display: flex;
-    height: 100vh;
+    height: 100%;
 
     @media (max-width: 768px) {
         display: grid;
@@ -21,6 +21,32 @@
                 height: 100%;
                 background-repeat: no-repeat;
                 background-size: 102% 100%;
+
+
+                &.tinto{
+                    background-image: url('/assets/portada/vino_tinto.jpg');
+
+                    @media (max-width: 768px) {
+                        background-image: url('/assets/portada/vino_tinto_movil.jpg');
+                    }
+                }
+
+                &.blanco{
+                    background-image: url('/assets/portada/vino_blanco.jpg');
+
+                    @media (max-width: 768px) {
+                        background-image: url('/assets/portada/vino_blanco_movil.jpg');
+                    }
+                }
+
+                &.rosado{
+                    background-image: url('/assets/portada/vino_rosado.jpg');
+
+                    @media (max-width: 768px) {
+                        background-image: url('/assets/portada/vino_rosado_movil.jpg');
+                    }
+                }
+
             }
         }
     }
@@ -60,7 +86,7 @@
         height: 100%;
         /* max-width: 100%; */
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
 
 

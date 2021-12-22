@@ -21,6 +21,12 @@
             align-items: center;
             justify-content: center;
             font-size: 18px;
+
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+
     
             span{
                 cursor: pointer;
