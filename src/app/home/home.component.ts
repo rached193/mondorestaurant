@@ -12,6 +12,21 @@ export class HomeComponent implements OnInit {
   fullpage_api: any;
 
 
+  options = {
+    center: { lat: 41.908347, lng: 0.1883429 },
+    zoom: 19,
+    zoomControl: true,
+    mapTypeControl: false, 
+    streetViewControl: false,
+    fullscreenControl: false,
+
+  };
+
+  marker = {
+    position: { lat: 41.908269168423615, lng: 0.18777238179164946},
+ }
+
+
   constructor() {
     // for more details on config options please visit fullPage.js docs
     this.config = {

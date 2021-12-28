@@ -79,6 +79,8 @@ app-header {
     }
 }
 
+
+
 .image-container{
     margin-left: auto;
     margin-right: auto;
@@ -125,6 +127,48 @@ app-header {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+
+    
+    .maps-label{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: black;
+        color: white;
+        font-family: sans-serif;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0s, opacity 0.5s linear;
+
+
+        .map-container{
+            height: calc(100vh - 177px);
+            width: 70%;
+            pointer-events: none;
+
+          }
+        
+          .footer-direccion{
+            line-height: 31px;
+            padding: 10px 30px;
+            display: flex;
+            flex-direction: column;
+            font-family: Devanagari;
+        
+            span{
+                margin: 0 5px;
+            }
+        }
+    }
+
+    &:hover .maps-label{
+        width: 100%;
+        height: 100%;
+        visibility: visible;
+        opacity: 1; 
+        display: flex;
     }
 
     .label{

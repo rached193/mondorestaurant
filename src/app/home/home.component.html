@@ -1,6 +1,6 @@
 <app-header [fullpage_api]="fullpage_api"></app-header>
 
-<div fullpage id="fullpage2" class="fullpage-wrapper"  [options]="config" (ref)="getRef($event)">
+<div fullpage id="fullpage2" class="fullpage-wrapper" [options]="config" (ref)="getRef($event)">
     <div class="section">
         <div class="page-menus">
             <div class="image-container">
@@ -18,34 +18,34 @@
 
         <div class="section-bodega">
 
-        <div class="page-bodega">
-            <div class="image-container" [routerLink]="['/bodega']">
-                <div class="image-card rosado"></div>
-                <!-- <img src="/assets/tinto.jpeg"> -->
-                <div class="image-label">
-                    <div class="label">Rosado</div>
+            <div class="page-bodega">
+                <div class="image-container" [routerLink]="['/bodega']">
+                    <div class="image-card rosado"></div>
+                    <!-- <img src="/assets/tinto.jpeg"> -->
+                    <div class="image-label">
+                        <div class="label">Rosado</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="page-bodega">
-            <div class="image-container" [routerLink]="['/bodega']">
-                <div class="image-card tinto"></div>
-                <div class="image-label">
-                    <div class="label"> Tinto</div>
+            <div class="page-bodega">
+                <div class="image-container" [routerLink]="['/bodega']">
+                    <div class="image-card tinto"></div>
+                    <div class="image-label">
+                        <div class="label"> Tinto</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="page-bodega">
-            <div class="image-container" [routerLink]="['/bodega']">
-                <div class="image-card blanco"></div>
-                <div class="image-label">
-                    <div class="label"> Blanco</div>
+            <div class="page-bodega">
+                <div class="image-container" [routerLink]="['/bodega']">
+                    <div class="image-card blanco"></div>
+                    <div class="image-label">
+                        <div class="label"> Blanco</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </div>
     <div class="section">
@@ -60,17 +60,24 @@
         </div>
     </div>
 
+
     <div class="section">
-        <div class="page-menus">
-            <div class="image-container" [routerLink]="['/contacto']">
+        <div class="page-menus reservas">
+            <div class="image-container">
                 <div class="img" style="background-image: url('/assets/menus.jpg');"></div>
-                <div class="image-label">
-                    <div class="label">Contacto</div>
+
+
+                <div class="maps-label">
+                    <div class="map-container">
+                        <google-map [width]="'100%'" [height]="'100%'" [options]="options">
+                            <map-marker [position]="marker.position"></map-marker>
+                        </google-map>
+                    </div>
 
                 </div>
             </div>
+            <app-footer></app-footer>
+
         </div>
     </div>
-
 </div>
-
