@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
       // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
-      anchors: ['menus', 'bodega', 'equipo', 'reservas'],
+      anchors: ['menus', 'bodega', 'equipo', 'contacto', 'reservas'],
       paddingTop: '60px'
     };
   }

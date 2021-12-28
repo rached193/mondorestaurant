@@ -10,34 +10,36 @@
             <div class="label-restaurante">RESTAURANTE</div>
 
 
+            <button class="button" [routerLink]="['/home']"> Experiencia Mondo</button>
         </div>
     </div>
 
-    <div class="navbar"> <span class="navbar-item-container">
-        <span class="navbar-item" [routerLink]="['/']">
-            Inicio
+    <div class="navbar">
+        <span class="navbar-item-container">
+            <span class="navbar-item" (click)="goTo('menus')">
+                Menus
+            </span>
         </span>
-    </span>
-    <span class="navbar-item-container">
-        <span class="navbar-item" (click)="goTo('menus')">
-            Menus
+        <span class="navbar-item-container">
+            <span class="navbar-item" (click)="goTo('bodega')">
+                Bodegas
+            </span>
         </span>
-    </span>
-    <span class="navbar-item-container">
-        <span class="navbar-item" (click)="goTo('bodega')">
-            Bodegas
+        <span class="navbar-item-container">
+            <span class="navbar-item" (click)="goTo('equipo')">
+                Equipo
+            </span>
         </span>
-    </span>
-    <span class="navbar-item-container">
-        <span class="navbar-item" (click)="goTo('equipo')">
-            Equipo
+        <span class="navbar-item-container">
+            <span class="navbar-item" (click)="goTo('contacto')">
+                Contacto
+            </span>
         </span>
-    </span>
-    <span class="navbar-item-container">
-        <span class="navbar-item" (click)="goTo('reservas')">
-            Reservas
+        <span class="navbar-item-container">
+            <span class="navbar-item" (click)="goTo('reservas')">
+                Reservas
+            </span>
         </span>
-    </span>
-</div>
+    </div>
 
 </div>

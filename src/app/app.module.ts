@@ -15,6 +15,7 @@ import { ReservasComponent } from './sections/reservas/reservas.component';
 import { AvisoLegalComponent } from './sections/aviso-legal/aviso-legal.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EncuentranosComponent } from './sections/encuentranos/encuentranos.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { EncuentranosComponent } from './sections/encuentranos/encuentranos.comp
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    AngularFullpageModule
+    AngularFullpageModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

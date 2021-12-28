@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: "bodega", component: BodegaComponent },
   { path: "reservas", component: ReservasComponent },
   { path: "aviso-legal", component: AvisoLegalComponent },
-  { path: "encuentranos", component: EncuentranosComponent },
+  { path: "contacto", component: EncuentranosComponent },
 
 ];
 
