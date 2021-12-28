@@ -27,7 +27,7 @@
         display:flex;
 
         .navbar-item-container{
-            padding-right: 30px;
+            padding: 0 15px;
             .navbar-item{
                 color: whitesmoke;
                 font-family: helvetica, sans-serif;
@@ -38,6 +38,17 @@
                 text-transform: uppercase;
 
                 cursor: pointer;
+
+
+                
+                &.reserva{
+                  border-radius: 14px;
+                  color: #111111;
+                  font-style: normal;
+                  font-weight: bold;
+                  background-color: white;
+                  padding: 10px;
+              }
             }
 
         }
@@ -150,6 +161,14 @@
                           text-transform: uppercase;
                         }
 
+                        &.reserva{
+                          border-radius: 14px;
+                          color: #111111;
+                          font-style: normal;
+                          font-weight: bold;
+                          background-color: white;
+                          padding: 10px;
+                      }
                     }
                     
                   }

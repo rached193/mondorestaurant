@@ -33,8 +33,8 @@
                     </span>
                 </span>
                 <span class="navbar-item-container">
-                    <span class="navbar-item" (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
-                        Reservas
+                    <span class="navbar-item reserva">
+                        Reservas Online
                     </span>
                 </span>
             </div>
@@ -62,12 +62,14 @@
                                 Equipo
                             </span></li>
                         <li> <span class="navbar-item"
-                                (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
-                                Reservas
+                                (click)="fullpage_api?fullpage_api.moveTo('contacto'): goTo('contacto')">
+                                Contacto
                             </span></li>
-                        <li> <span class="navbar-item"
-                                (click)="fullpage_api?fullpage_api.moveTo('reservas'): goTo('reservas')">
-                                
+                        <li> <span class="navbar-item reserva">
+                                Reserva Online
+                            </span></li>
+                        <li> <span class="navbar-item">
+
                             </span></li>
                         <li> <span class="navbar-item aviso-legal" [routerLink]="['/aviso-legal']">
                                 aviso legal
