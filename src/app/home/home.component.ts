@@ -19,6 +19,7 @@ export class HomeComponent implements OnInit {
     mapTypeControl: false, 
     streetViewControl: false,
     fullscreenControl: false,
+    scrollwheel: false
 
   };
 
