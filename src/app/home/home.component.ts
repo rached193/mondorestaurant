@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     center: { lat: 41.908347, lng: 0.1883429 },
     zoom: 19,
     zoomControl: true,
-    mapTypeControl: false, 
+    mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: false,
     scrollwheel: false
@@ -24,8 +24,29 @@ export class HomeComponent implements OnInit {
   };
 
   marker = {
-    position: { lat: 41.908269168423615, lng: 0.18777238179164946},
- }
+    position: { lat: 41.908269168423615, lng: 0.18777238179164946 },
+  };
+
+  primeros = [
+    'Ensalada Nizarda',
+    'Macarrones, salsa de tomate y queso Grana Padano',
+    'Lentejas y pato asado',
+    'Puré de calabaza, picadillo de jamón'
+  ];
+
+  segundos = [
+    'Dorada con patata panadera y salteado de verduras',
+    'Atún con mayonesa de soja y champiñones',
+    'Solomillo de cerdo con salsa café de parís',
+    'Albóndigas de ternera salsa de tomate, pepino, queso ricota y menta'
+  ];
+
+  postres = [
+    'Natillas con crumble de galleta Maria y helado de vainilla',
+    'Tarta de  queso con coulis de frutos rojos, virutas de queso curado',
+    'Yogur Val de Cinca con miel y nueces'
+  ];
+  
 
 
   constructor() {

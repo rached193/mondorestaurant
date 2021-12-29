@@ -88,26 +88,22 @@ app-header {
 
     .map-container{
         height: calc(100vh - 177px);
-        width: 70%;
-      }
-    
-      .footer-direccion{
-        line-height: 31px;
-        padding: 10px 30px;
-        display: flex;
-        flex-direction: column;
-        font-family: Devanagari;
-    
-        span{
-            margin: 0 5px;
-        }
+        flex-basis: 75%;
     }
+
+    .map-text{
+        color: white;
+        flex-basis: 25%;
+        padding: 10px 30px;
+        align-self: center;
+        line-height: 1.5;
+        cursor: default;
+    }
+    
 }
 
 
 .image-container{
-    margin-left: auto;
-    margin-right: auto;
 
     position: relative;
     height: 100%;
@@ -151,6 +147,23 @@ app-header {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .cards-menu-container{
+        position: absolute;
+        display: flex;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        .cards-menu{
+            display: flex;
+            margin: auto;
+
+            .card-menu{
+                margin: 20px;
+            }
+        }
     }
 
 

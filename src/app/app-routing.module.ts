@@ -6,13 +6,11 @@ import { LandingComponent } from './landing/landing.component';
 import { AvisoLegalComponent } from './sections/aviso-legal/aviso-legal.component';
 import { BodegaComponent } from './sections/bodega/bodega.component';
 import { EncuentranosComponent } from './sections/encuentranos/encuentranos.component';
-import { MenusComponent } from './sections/menus/menus.component';
 import { ReservasComponent } from './sections/reservas/reservas.component';
 
 const routes: Routes = [
   { path: "", component: LandingComponent, data: { animation: 'Landing' } },
   { path: "home", component: HomeComponent, data: { animation: 'Home' } },
-  { path: "menus", component: MenusComponent },
   { path: "bodega", component: BodegaComponent },
   { path: "reservas", component: ReservasComponent },
   { path: "aviso-legal", component: AvisoLegalComponent },

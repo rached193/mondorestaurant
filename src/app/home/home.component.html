@@ -6,8 +6,15 @@
             <div class="image-container">
                 <!-- <img src="/assets/menus.jpg"> -->
                 <div class="img" style="background-image: url('/assets/portada/menu.jpg');"></div>
-                <div class="image-label">
-                    <div class="label">Menus</div>
+                <div class="cards-menu-container">
+                    <div class="cards-menu">
+                        <app-menus-card class="card-menu" label="Primeros platos" [info]="primeros"></app-menus-card>
+                        <app-menus-card class="card-menu" label="Segundos platos" [info]="segundos"></app-menus-card>
+                        <app-menus-card class="card-menu" label="Postres" [info]="postres"></app-menus-card>
+                    </div>
+
+
+                    <!-- <div class="label">Menus</div> -->
 
                 </div>
             </div>
@@ -65,14 +72,21 @@
         <div class="page-menus reservas">
 
 
-                <div class="maps-label">
-                    <div class="map-container">
-                        <google-map [width]="'100%'" [height]="'100%'" [options]="options">
-                            <map-marker [position]="marker.position"></map-marker>
-                        </google-map>
-                    </div>
-
+            <div class="maps-label">
+                <div class="map-container">
+                    <google-map [width]="'100%'" [height]="'100%'" [options]="options">
+                        <map-marker [position]="marker.position"></map-marker>
+                    </google-map>
                 </div>
+                <div class="map-text">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."
+                </div>
+
+            </div>
             <app-footer></app-footer>
 
         </div>
