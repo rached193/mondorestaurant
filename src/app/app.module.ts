@@ -13,7 +13,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { ReservasComponent } from './sections/reservas/reservas.component';
 import { AvisoLegalComponent } from './sections/aviso-legal/aviso-legal.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { EncuentranosComponent } from './sections/encuentranos/encuentranos.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { MenusCardComponent } from './home/menus-card/menus-card.component';
 
@@ -28,7 +27,6 @@ import { MenusCardComponent } from './home/menus-card/menus-card.component';
     ReservasComponent,
     AvisoLegalComponent,
     FooterComponent,
-    EncuentranosComponent,
     MenusCardComponent
   ],
   imports: [

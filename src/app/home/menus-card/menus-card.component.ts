@@ -11,9 +11,13 @@ export class MenusCardComponent implements OnInit {
   @Input() label: string = '';
   @Input() info: string[] = [];
 
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }

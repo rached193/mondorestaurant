@@ -6,13 +6,13 @@
     height: 100%;
     min-height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .content{
-    padding-top: 50px;
     padding-bottom: 45px;
-    max-width: 604px;
-    margin: 0 auto;
+    max-width: 440px;
 
     img{
         display: block;
@@ -76,10 +76,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
-    align-items: center;
     margin: 45px 0;
-
-    justify-content: center;
 
 
     .navbar-item-container{  /* margin-left: auto; */
@@ -93,7 +90,7 @@
 }
 
 .label-mondo{    
-    font-size: 84px;
+    font-size: 80px;
     font-family: 'Avenir';
     font-weight: 300;
     color: #f5f1e7;
@@ -118,4 +115,11 @@
     font-style: normal;
     padding-bottom: 30px;
     padding-top: 5px;
+}
+
+.landing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

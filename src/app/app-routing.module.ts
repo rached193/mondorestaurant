@@ -5,7 +5,6 @@ import { HomeComponent } from './home/home.component';
 import { LandingComponent } from './landing/landing.component';
 import { AvisoLegalComponent } from './sections/aviso-legal/aviso-legal.component';
 import { BodegaComponent } from './sections/bodega/bodega.component';
-import { EncuentranosComponent } from './sections/encuentranos/encuentranos.component';
 import { ReservasComponent } from './sections/reservas/reservas.component';
 
 const routes: Routes = [
@@ -14,7 +13,6 @@ const routes: Routes = [
   { path: "bodega", component: BodegaComponent },
   { path: "reservas", component: ReservasComponent },
   { path: "aviso-legal", component: AvisoLegalComponent },
-  { path: "contacto", component: EncuentranosComponent },
 
 ];
 
