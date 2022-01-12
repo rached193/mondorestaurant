@@ -156,12 +156,23 @@ app-header {
         height: 100%;
         width: 100%;
 
+
         .cards-menu{
             display: flex;
             margin: auto;
 
+            @media (max-width: 768px) {
+                flex-direction: column;
+
+    
+            }
+
             .card-menu{
                 margin: 20px;
+
+                @media (max-width: 768px) {
+                    margin:0
+                }
             }
         }
     }

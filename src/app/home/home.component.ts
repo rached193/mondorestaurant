@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
     'Tarta de  queso con coulis de frutos rojos, virutas de queso curado',
     'Yogur Val de Cinca con miel y nueces'
   ];
-  
+
 
 
   constructor() {
@@ -55,7 +55,7 @@ export class HomeComponent implements OnInit {
 
       // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
-      anchors: ['menus', 'bodega', 'equipo', 'contacto'],
+      anchors: ['menus', 'bodega', 'contacto'],
       paddingTop: '60px'
     };
   }

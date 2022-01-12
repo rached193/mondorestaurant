@@ -1,5 +1,5 @@
 .fondo{
-    background-image: url(https://image.freepik.com/foto-gratis/marmol-negro-textura-fondo-textura-marmol-tailandia-marmol-natural-abstracto-blanco-negro-diseno_1253-917.jpg);
+    background-image: url('/assets/black-product-background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,8 @@
 }
 
 .content{
-    padding-bottom: 45px;
-    max-width: 440px;
+    padding-bottom: 20px;
+    max-width: 350px;
 
     img{
         display: block;
@@ -44,10 +44,10 @@
         
             align-items: center;
             cursor: pointer;
-            width: 100%;
             overflow: hidden;
             white-space: nowrap;
             word-break: keep-all;
+            padding: 0 10px;
         
             &:hover{
                 color: #111111;
@@ -55,14 +55,14 @@
                 font-weight: bold;
                 text-decoration: none;
                 text-transform: none;
-                background-color: rgba(255, 255, 255, 0.75);}
+                background-color: rgba(255, 255, 255, 0.75);
+            }
+
+            @media (max-width: 768px) {
+                display: block;
+            }
         }
 
-        
-        @media (max-width: 768px) {
-            display: block;
-
-        }
     }
 
 
@@ -76,7 +76,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
-    margin: 45px 0;
+    margin: 25px 0;
 
 
     .navbar-item-container{  /* margin-left: auto; */
@@ -85,12 +85,22 @@
         .navbar-item {
             cursor: pointer;
         }
+
         
+        a {
+            color: inherit; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+          }
+        
+    }
+
+    @media (max-width: 768px) {
+        display: none;
     }
 }
 
 .label-mondo{    
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Avenir';
     font-weight: 300;
     color: #f5f1e7;
@@ -99,7 +109,6 @@
     letter-spacing: 25px;
 
     @media (max-width: 768px) {
-        background-image: url('/assets/portada/vino_tinto_movil.jpg');
         letter-spacing: 0px;
         font-weight: bold;
         font-size: 40px;
