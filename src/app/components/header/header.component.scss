@@ -173,6 +173,13 @@
                           font-weight: bold;
                           background-color: white;
                           padding: 10px;
+                          font-size: 1.2em;
+                          white-space: nowrap;
+                      }
+
+                      a {
+                        color: inherit; /* blue colors for links too */
+                        text-decoration: inherit; /* no underline */
                       }
                     }
                     
