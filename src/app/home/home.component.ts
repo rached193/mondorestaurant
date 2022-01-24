@@ -52,6 +52,8 @@ export class HomeComponent implements OnInit {
   constructor() {
     // for more details on config options please visit fullPage.js docs
     this.config = {
+      slideSelector: '.horizontal-scrolling',
+      controlArrows: false,
 
       // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
