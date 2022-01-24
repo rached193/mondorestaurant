@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +6,15 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+
+
+  innerWidth = 0 
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+    console.log(this.innerWidth)
+  }
 
 
   config: any;
@@ -23,28 +32,25 @@ export class HomeComponent implements OnInit {
 
   };
 
-  marker = {
-    position: { lat: 41.908269168423615, lng: 0.18777238179164946 },
-  };
 
   primeros = [
-    'Ensalada Nizarda',
-    'Macarrones, salsa de tomate, queso Parmesano y aceite de albahaca',
-    'Lentejas y pato asado',
-    'Puré de calabaza, picadillo de jamón y ajotierno'
+    'Ensalada templada de queso de cabra Radiquero',
+    'Espinicas a la catalana',
+    'Macarrones al estilo italiano, salsa de tomate, queso Grana Padano y aceite de albahaca',
+    'Sancocho'
   ];
 
   segundos = [
-    'Dorada a la brasa, patata panadera y salteado de verduras',
-    'Atún, mayonesa de soja y champiñones',
-    'Solomillo de cerdo a la brasa y tabulè libanes',
-    'Albóndigas de ternera, salsa de tomate, pepino, queso ricota y menta'
+    'Caldereta de rape',
+    'Merluza al orio',
+    'Entraña marinada y mantequilla de pimentón',
+    'Pollo al curry'
   ];
 
   postres = [
-    'Natillas, crumble de galleta Maria y helado de vainilla',
-    'Arroz con leche, compota de manzada anisada y espuma de queso',
-    'Macedonia de frutas y licor de Cassis'
+    'Crema catalana, chirimoya y miel',
+    'Arroz con leche, compota de manzada anisada y espuma de queso parmesano',
+    'Brownie y helado de vainilla'
   ];
 
 
