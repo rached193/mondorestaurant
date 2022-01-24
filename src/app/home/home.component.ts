@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +8,6 @@ import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular
 export class HomeComponent implements OnInit {
 
 
-  innerWidth = 0 
-
-  @HostListener('window:resize', ['$event'])
-  onResize() {
-    this.innerWidth = window.innerWidth;
-    console.log(this.innerWidth)
-  }
 
 
   config: any;
