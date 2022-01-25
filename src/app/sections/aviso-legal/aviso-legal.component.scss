@@ -2,4 +2,8 @@
     margin: auto;
     width: 50%;
     margin-top: 3em;
+
+    @media (max-width: 768px) {
+        width: 90%;
+    }
 }
