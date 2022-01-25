@@ -163,7 +163,8 @@ app-header {
             margin: auto;
 
             @media (max-width: 768px) {
-               flex-direction: column;
+            //    flex-direction: column;
+            overflow-x: scroll;
             }
 
 
@@ -171,7 +172,7 @@ app-header {
                 margin: 20px;
 
                 @media (max-width: 768px) {
-                    // margin: 0;
+                    margin: 0;
                 }
   
             }
