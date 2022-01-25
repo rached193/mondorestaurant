@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
 
 
   primeros = [
-    'Ensalada templada de queso de cabra Radiquero',
+    'Ensalada templada con queso de cabra',
     'Espinicas a la catalana',
     'Macarrones al estilo italiano, salsa de tomate, queso Grana Padano y aceite de albahaca',
     'Sancocho'
