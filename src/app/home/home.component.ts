@@ -28,9 +28,9 @@ export class HomeComponent implements OnInit {
 
   primeros = [
     'Ensalada templada con queso de cabra',
-    'Espinicas a la catalana',
-    'Macarrones al estilo italiano, salsa de tomate, queso Grana Padano y aceite de albahaca',
-    'Sancocho'
+    'Espinacas a la catalana',
+    'Macarrones Rigatte, salsa de tomate, queso Grana Padano y aceite de albahaca',
+    'Sancocho y huevo poché'
   ];
 
   segundos = [
@@ -41,8 +41,8 @@ export class HomeComponent implements OnInit {
   ];
 
   postres = [
-    'Crema catalana, chirimoya y miel',
-    'Arroz con leche, compota de manzada anisada y espuma de queso parmesano',
+    'Natillas, crumble de galletas Maria caremelizada y helado de vainilla',
+    'Arroz con leche, compota de manzada anisada y espuma de queso Parmesano Reggiano',
     'Brownie y helado de vainilla'
   ];
 
