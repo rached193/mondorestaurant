@@ -47,12 +47,9 @@ export class HomeComponent implements OnInit {
   ];
 
 
-
   constructor() {
     // for more details on config options please visit fullPage.js docs
     this.config = {
-      scrollOverflow: true,
-
       // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
       anchors: ['menus', 'bodega', 'contacto'],
