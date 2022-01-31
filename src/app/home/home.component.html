@@ -26,7 +26,7 @@
         <div class="section-bodega">
 
             <div class="page-bodega">
-                <div class="image-container" [routerLink]="['/bodega']">
+                <div class="image-container" [routerLink]="['/bodega']" [queryParams]="{vino: 'rosado'}">
                     <div class="image-card rosado"></div>
                     <!-- <img src="/assets/tinto.jpeg"> -->
                     <div class="image-label">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="page-bodega">
-                <div class="image-container" [routerLink]="['/bodega']">
+                <div class="image-container" [routerLink]="['/bodega']" [queryParams]="{vino: 'tinto'}">
                     <div class="image-card tinto"></div>
                     <div class="image-label">
                         <div class="label"> Tinto</div>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="page-bodega">
-                <div class="image-container" [routerLink]="['/bodega']">
+                <div class="image-container" [routerLink]="['/bodega']" [queryParams]="{vino: 'blanco'}">
                     <div class="image-card blanco"></div>
                     <div class="image-label">
                         <div class="label"> Blanco</div>

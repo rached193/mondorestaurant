@@ -88,6 +88,9 @@ app-header {
 
     .map-container{
         height: calc(100vh - 177px);
+        @media (max-width: 768px) {
+             height: calc(100vh - 208px);
+        }
         flex-basis: 100%;
         // flex-basis: 75%;
     }
