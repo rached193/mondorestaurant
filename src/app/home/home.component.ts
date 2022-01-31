@@ -54,6 +54,7 @@ export class HomeComponent implements OnInit {
       licenseKey: 'YOUR LICENSE KEY HERE',
       anchors: ['menus', 'bodega', 'contacto'],
       paddingTop: '60px',
+      responsive:300
       
     };
   }
