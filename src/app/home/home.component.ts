@@ -27,28 +27,27 @@ export class HomeComponent implements OnInit {
 
 
   primeros = [
-    'Tagliatelle a la carbonata',
-    'Trinxat y crujiente de panceta',
-    'Sopa de cebolla',
-    'Ensalada César'
+    'Alcachofas salteadas con jamón',
+    'Garbanzos y sepia encebollada',
+    'Ensalada de hinojo',
+    'Ravioli de merluza y rape con salsa americana'
   ];
 
   segundos = [
-    'Entraña marinada y chimichurri',
-    'Bitoques en salsa de almendras',
-    'Bacalao en Sanfaina',
-    'Marmitaco'
+    'Lubina y rabanitos',
+    'Sepia a la brasa con alioli de tinta',
+    'Costilla de cerdo asada y salsa barbacoa',
+    'Pollo al curry'
   ];
 
   postres = [
-    'Coulant de chocolate y helado de romero',
-    'Natillas, crumble de galleta María Caramelizada y helado de vainilla',
-    'Arroz con leche, compota de manzana anisada y espuma de queso parmesano'
+    'Isla Flotante',
+    'Macedonia de frutas y licor de Cassis',
+    'Arroz con leche'
   ];
 
 
   constructor() {
-    // for more details on config options please visit fullPage.js docs
     this.config = {
       // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
