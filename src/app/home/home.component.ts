@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
 
 
   primeros = [
-    'Alcachofas salteadas con jamón',
+    'Guisantes con papada de cerdo',
     'Garbanzos y sepia encebollada',
     'Ensalada de hinojo',
     'Ravioli de merluza y rape con salsa americana'
@@ -53,7 +53,7 @@ export class HomeComponent implements OnInit {
       licenseKey: 'YOUR LICENSE KEY HERE',
       anchors: ['menus', 'bodega', 'contacto'],
       paddingTop: '60px',
-      responsive:300
+      responsiveWidth: 800
       
     };
   }
