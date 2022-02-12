@@ -8,5 +8,5 @@ import { slideInAnimation } from './app-routing.module';
   animations: [slideInAnimation]
 })
 export class AppComponent {
-  title = 'restaurantemondo';
+  title = 'Restaurante Mondo';
 }
