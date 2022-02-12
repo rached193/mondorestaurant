@@ -50,7 +50,7 @@ export class HomeComponent implements OnInit {
   constructor() {
     this.config = {
       // fullpage options
-      licenseKey: 'YOUR LICENSE KEY HERE',
+      licenseKey: 'C0262168-74E046C2-8000A5AA-ED55E8F1',
       anchors: ['menus', 'bodega', 'contacto'],
       paddingTop: '60px',
       responsiveWidth: 800
