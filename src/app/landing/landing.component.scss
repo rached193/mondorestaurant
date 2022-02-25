@@ -80,10 +80,23 @@
 
 
     .navbar-item-container{  /* margin-left: auto; */
-        margin: 0px 34px;
-    
+        margin: 0 14px;
+
+        &:hover{
+            transform: scale(1.05);
+
+        }
+
         .navbar-item {
             cursor: pointer;
+            padding: 0px 20px;
+            border-radius: 50px 50px 50px 50px / 25px 25px 25px 25px;
+
+
+
+            &:hover{
+               background-color: #b6b4af69;
+            }
         }
 
         
