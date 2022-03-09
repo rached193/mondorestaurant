@@ -27,23 +27,23 @@ export class HomeComponent implements OnInit {
 
 
   primeros = [
-    'Ensalada templada de gulas y setas',
-    'Crema de guisantes al poleo con espuma de queso',
-    'Espaguetis y gambas al ajillo',
-    'Calabacines rellenos de mejillones, jamón serrano y caviar de trucha'
+    'Ensalada de escarola con frutos rojos y gel de apio',
+    'Sopa castellana',
+    'Remolacha frita, alcaparras y alioli de azafrán',
+    'Borraja con almejas'
   ];
 
   segundos = [
-    'Atún en salsa de piquillo',
-    'Merluza braseada al vino blanco con finas hierbas',
-    'Solomillo de cerdo en salsa de champiñón y reducción de Vozka',
-    'Magret de pato con chutney de piña y reducción de Moscatell.'
+    'Trucha a la navarra',
+    'Bacalao con muselina de ajo y patata panadera',
+    'Chorizo a la cerveza',
+    'Secreto con verduritas y rulo de cabra'
   ];
 
   postres = [
-    'Contraste de chocolates',
-    'Yogur de oveja con frutos del bosque',
-    'Crema catalana y merengue'
+    'Empanadillas de membrillo y queso Ricotta',
+    'Crêpes de crema de avellanas y plátano',
+    'Mousse de papaya y naranja'
   ];
 
 
@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
       anchors: ['menus', 'bodega', 'contacto'],
       paddingTop: '60px',
       responsiveWidth: 800
-      
+
     };
   }
   getRef(fullPageRef: any) {
