@@ -27,23 +27,23 @@ export class HomeComponent implements OnInit {
 
 
   primeros = [
-    'Macarrones a la putanesca',
-    'Cogollos de romana con puré de anchoas y vinagreta de mostaza',
-    'Judías verdes con jamón',
-    'Lentejas con chorizo y morcilla',
+    'Ensalada César',
+    'Papardelle al pesto',
+    'Garbanzos en salsa de almendras',
+    'Menestra de verduras',
   ];
 
   segundos = [
-    'Solomillo de cerdo y salsa cumberland',
-    'Cachopo, pimientos del padrón y mayonesa de comino',
-    'Bacalao al ajoarriero',
-    'Trucha, salsa de almendras y patatas a lo pobre'
+    'Albóndigas al vino tinto',
+    'Filete de pescado y salsa de coco',
+    'Chuleta de cerdo y puré de patata trufado',
+    'Espetos con piquillo y patata panadera'
   ];
 
   postres = [
-    'Sorbete de mar de cava',
-    'Tarta Tatin',
-    'Arroz con leche, espuma de queso parmesano y esferificación de papaya con naranja'
+    'Fresas con nata',
+    'Yogur de oveja y mermelada',
+    'Natilla de chocolate y crumble de galleta con almendra'
   ];
 
 
